@@ -1,0 +1,45 @@
+body {
+	font-size: 14pt;
+	font-family: Helvetica, sans-serif;
+	background-color: #C1EEFF;
+}
+
+input {
+	width: 3.5em;
+	height: 1.25em;
+	margin: 0.5em;
+	text-align: center;
+	font-family: "Comics Sans MS", sans-serif;
+	font-size: 16pt;
+	vertical-align: middle;
+}
+
+#multiplicand, #multiplier, #product {
+	font-size: 30pt;
+	color: black;
+}
+
+#multiplicand, #multiplier {
+	/* font-weight: bold; */
+}
+
+#score, #lives, #high_score {
+	color: white;
+	background-color: #444444;
+	border: 2px solid white;
+	border-radius: 100%;
+	padding: 0.125em;
+	width: 3.25em;
+}
+
+input[type="submit"] {
+	display: none;
+}
+
+table {
+	margin-left: 1em;
+}
+
+table tr td:first-child {
+	text-align: right;
+}
